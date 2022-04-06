@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78AE2696EE85717817492D53 /* Pods_Modal_DownSwipeDisabled_Modal_DownSwipeDisabledUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8A03DFDFFC8840FFEA7AA6 /* Pods_Modal_DownSwipeDisabled_Modal_DownSwipeDisabledUITests.framework */; };
+		AF566B2D504FE8760D17947E /* Pods_Modal_DownSwipeDisabled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1FD7511ACDDE529FF49806 /* Pods_Modal_DownSwipeDisabled.framework */; };
+		B9CCB072E80463ECFD686CCC /* Pods_Modal_DownSwipeDisabledTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F6295AFA9E325B738EA208 /* Pods_Modal_DownSwipeDisabledTests.framework */; };
 		F4DD112B27FDCCA80090E163 /* Modal_DownSwipeDisabledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD112A27FDCCA80090E163 /* Modal_DownSwipeDisabledApp.swift */; };
 		F4DD112D27FDCCA80090E163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD112C27FDCCA80090E163 /* ContentView.swift */; };
 		F4DD112F27FDCCAC0090E163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DD112E27FDCCAC0090E163 /* Assets.xcassets */; };
@@ -16,6 +19,12 @@
 		F4DD114127FDCCAC0090E163 /* Modal_DownSwipeDisabledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD114027FDCCAC0090E163 /* Modal_DownSwipeDisabledTests.swift */; };
 		F4DD114B27FDCCAD0090E163 /* Modal_DownSwipeDisabledUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD114A27FDCCAD0090E163 /* Modal_DownSwipeDisabledUITests.swift */; };
 		F4DD114D27FDCCAD0090E163 /* Modal_DownSwipeDisabledUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD114C27FDCCAD0090E163 /* Modal_DownSwipeDisabledUITestsLaunchTests.swift */; };
+		F4DD115C27FDCE2E0090E163 /* InquiryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD115B27FDCE2E0090E163 /* InquiryFormView.swift */; };
+		F4DD115E27FDCE580090E163 /* InquiryConfirmDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD115D27FDCE580090E163 /* InquiryConfirmDetailView.swift */; };
+		F4DD116127FDCEB10090E163 /* InquiryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD116027FDCEB10090E163 /* InquiryViewModel.swift */; };
+		F4DD116327FDCEF20090E163 /* InquiryStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD116227FDCEF20090E163 /* InquiryStart.swift */; };
+		F4DD116627FDCF390090E163 /* PlaceHolderTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD116527FDCF390090E163 /* PlaceHolderTextEditor.swift */; };
+		F4DD116827FDCF730090E163 /* ModalHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD116727FDCF730090E163 /* ModalHostingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A53A532BB2A8E1C915D3717 /* Pods-Modal-DownSwipeDisabledTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modal-DownSwipeDisabledTests.release.xcconfig"; path = "Target Support Files/Pods-Modal-DownSwipeDisabledTests/Pods-Modal-DownSwipeDisabledTests.release.xcconfig"; sourceTree = "<group>"; };
+		25C840AD335900EF938BACB9 /* Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests.debug.xcconfig"; path = "Target Support Files/Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests/Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B6986BDB6421D5123CDD5F0 /* Pods-Modal-DownSwipeDisabled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modal-DownSwipeDisabled.release.xcconfig"; path = "Target Support Files/Pods-Modal-DownSwipeDisabled/Pods-Modal-DownSwipeDisabled.release.xcconfig"; sourceTree = "<group>"; };
+		2E1FD7511ACDDE529FF49806 /* Pods_Modal_DownSwipeDisabled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modal_DownSwipeDisabled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F6295AFA9E325B738EA208 /* Pods_Modal_DownSwipeDisabledTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modal_DownSwipeDisabledTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72DF2EA346518E82C45F8A4 /* Pods-Modal-DownSwipeDisabled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modal-DownSwipeDisabled.debug.xcconfig"; path = "Target Support Files/Pods-Modal-DownSwipeDisabled/Pods-Modal-DownSwipeDisabled.debug.xcconfig"; sourceTree = "<group>"; };
+		B093CB7AAFBCC833800AF0D2 /* Pods-Modal-DownSwipeDisabledTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modal-DownSwipeDisabledTests.debug.xcconfig"; path = "Target Support Files/Pods-Modal-DownSwipeDisabledTests/Pods-Modal-DownSwipeDisabledTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8A03DFDFFC8840FFEA7AA6 /* Pods_Modal_DownSwipeDisabled_Modal_DownSwipeDisabledUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modal_DownSwipeDisabled_Modal_DownSwipeDisabledUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8E3830D7C695AB284D57C9 /* Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests.release.xcconfig"; path = "Target Support Files/Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests/Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F4DD112727FDCCA80090E163 /* Modal-DownSwipeDisabled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modal-DownSwipeDisabled.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD112A27FDCCA80090E163 /* Modal_DownSwipeDisabledApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal_DownSwipeDisabledApp.swift; sourceTree = "<group>"; };
 		F4DD112C27FDCCA80090E163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +66,12 @@
 		F4DD114627FDCCAD0090E163 /* Modal-DownSwipeDisabledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modal-DownSwipeDisabledUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD114A27FDCCAD0090E163 /* Modal_DownSwipeDisabledUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal_DownSwipeDisabledUITests.swift; sourceTree = "<group>"; };
 		F4DD114C27FDCCAD0090E163 /* Modal_DownSwipeDisabledUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal_DownSwipeDisabledUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4DD115B27FDCE2E0090E163 /* InquiryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryFormView.swift; sourceTree = "<group>"; };
+		F4DD115D27FDCE580090E163 /* InquiryConfirmDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryConfirmDetailView.swift; sourceTree = "<group>"; };
+		F4DD116027FDCEB10090E163 /* InquiryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryViewModel.swift; sourceTree = "<group>"; };
+		F4DD116227FDCEF20090E163 /* InquiryStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryStart.swift; sourceTree = "<group>"; };
+		F4DD116527FDCF390090E163 /* PlaceHolderTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextEditor.swift; sourceTree = "<group>"; };
+		F4DD116727FDCF730090E163 /* ModalHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHostingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF566B2D504FE8760D17947E /* Pods_Modal_DownSwipeDisabled.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CCB072E80463ECFD686CCC /* Pods_Modal_DownSwipeDisabledTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +95,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78AE2696EE85717817492D53 /* Pods_Modal_DownSwipeDisabled_Modal_DownSwipeDisabledUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C25DC716D1A6F1E2BFE4539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A72DF2EA346518E82C45F8A4 /* Pods-Modal-DownSwipeDisabled.debug.xcconfig */,
+				2B6986BDB6421D5123CDD5F0 /* Pods-Modal-DownSwipeDisabled.release.xcconfig */,
+				25C840AD335900EF938BACB9 /* Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests.debug.xcconfig */,
+				CC8E3830D7C695AB284D57C9 /* Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests.release.xcconfig */,
+				B093CB7AAFBCC833800AF0D2 /* Pods-Modal-DownSwipeDisabledTests.debug.xcconfig */,
+				0A53A532BB2A8E1C915D3717 /* Pods-Modal-DownSwipeDisabledTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E76715EB112EA23C646F8261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E1FD7511ACDDE529FF49806 /* Pods_Modal_DownSwipeDisabled.framework */,
+				CB8A03DFDFFC8840FFEA7AA6 /* Pods_Modal_DownSwipeDisabled_Modal_DownSwipeDisabledUITests.framework */,
+				37F6295AFA9E325B738EA208 /* Pods_Modal_DownSwipeDisabledTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4DD111E27FDCCA80090E163 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +133,8 @@
 				F4DD113F27FDCCAC0090E163 /* Modal-DownSwipeDisabledTests */,
 				F4DD114927FDCCAD0090E163 /* Modal-DownSwipeDisabledUITests */,
 				F4DD112827FDCCA80090E163 /* Products */,
+				1C25DC716D1A6F1E2BFE4539 /* Pods */,
+				E76715EB112EA23C646F8261 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +151,9 @@
 		F4DD112927FDCCA80090E163 /* Modal-DownSwipeDisabled */ = {
 			isa = PBXGroup;
 			children = (
+				F4DD115F27FDCE950090E163 /* ViewModels */,
+				F4DD115927FDCE0E0090E163 /* Views */,
+				F4DD116427FDCF1C0090E163 /* Utils */,
 				F4DD112A27FDCCA80090E163 /* Modal_DownSwipeDisabledApp.swift */,
 				F4DD112C27FDCCA80090E163 /* ContentView.swift */,
 				F4DD112E27FDCCAC0090E163 /* Assets.xcassets */,
@@ -133,6 +189,41 @@
 			path = "Modal-DownSwipeDisabledUITests";
 			sourceTree = "<group>";
 		};
+		F4DD115927FDCE0E0090E163 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD115A27FDCE170090E163 /* Inquiry */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4DD115A27FDCE170090E163 /* Inquiry */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD115B27FDCE2E0090E163 /* InquiryFormView.swift */,
+				F4DD115D27FDCE580090E163 /* InquiryConfirmDetailView.swift */,
+				F4DD116227FDCEF20090E163 /* InquiryStart.swift */,
+			);
+			path = Inquiry;
+			sourceTree = "<group>";
+		};
+		F4DD115F27FDCE950090E163 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD116027FDCEB10090E163 /* InquiryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F4DD116427FDCF1C0090E163 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD116527FDCF390090E163 /* PlaceHolderTextEditor.swift */,
+				F4DD116727FDCF730090E163 /* ModalHostingController.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DD115027FDCCAD0090E163 /* Build configuration list for PBXNativeTarget "Modal-DownSwipeDisabled" */;
 			buildPhases = (
+				6CB9D69350BE038F3F29B78E /* [CP] Check Pods Manifest.lock */,
 				F4DD112327FDCCA80090E163 /* Sources */,
 				F4DD112427FDCCA80090E163 /* Frameworks */,
 				F4DD112527FDCCA80090E163 /* Resources */,
@@ -157,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DD115327FDCCAD0090E163 /* Build configuration list for PBXNativeTarget "Modal-DownSwipeDisabledTests" */;
 			buildPhases = (
+				44592B1185C4517B4AFEA8E0 /* [CP] Check Pods Manifest.lock */,
 				F4DD113827FDCCAC0090E163 /* Sources */,
 				F4DD113927FDCCAC0090E163 /* Frameworks */,
 				F4DD113A27FDCCAC0090E163 /* Resources */,
@@ -175,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DD115627FDCCAD0090E163 /* Build configuration list for PBXNativeTarget "Modal-DownSwipeDisabledUITests" */;
 			buildPhases = (
+				A16C9B9D7D076D38E09130FE /* [CP] Check Pods Manifest.lock */,
 				F4DD114227FDCCAD0090E163 /* Sources */,
 				F4DD114327FDCCAD0090E163 /* Frameworks */,
 				F4DD114427FDCCAD0090E163 /* Resources */,
@@ -258,13 +352,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44592B1185C4517B4AFEA8E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Modal-DownSwipeDisabledTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CB9D69350BE038F3F29B78E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Modal-DownSwipeDisabled-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A16C9B9D7D076D38E09130FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4DD112327FDCCA80090E163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DD116827FDCF730090E163 /* ModalHostingController.swift in Sources */,
+				F4DD116627FDCF390090E163 /* PlaceHolderTextEditor.swift in Sources */,
+				F4DD115E27FDCE580090E163 /* InquiryConfirmDetailView.swift in Sources */,
 				F4DD113727FDCCAC0090E163 /* Modal_DownSwipeDisabled.xcdatamodeld in Sources */,
+				F4DD115C27FDCE2E0090E163 /* InquiryFormView.swift in Sources */,
 				F4DD113427FDCCAC0090E163 /* Persistence.swift in Sources */,
+				F4DD116327FDCEF20090E163 /* InquiryStart.swift in Sources */,
+				F4DD116127FDCEB10090E163 /* InquiryViewModel.swift in Sources */,
 				F4DD112D27FDCCA80090E163 /* ContentView.swift in Sources */,
 				F4DD112B27FDCCA80090E163 /* Modal_DownSwipeDisabledApp.swift in Sources */,
 			);
@@ -421,6 +590,7 @@
 		};
 		F4DD115127FDCCAD0090E163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72DF2EA346518E82C45F8A4 /* Pods-Modal-DownSwipeDisabled.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +620,7 @@
 		};
 		F4DD115227FDCCAD0090E163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6986BDB6421D5123CDD5F0 /* Pods-Modal-DownSwipeDisabled.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +650,7 @@
 		};
 		F4DD115427FDCCAD0090E163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B093CB7AAFBCC833800AF0D2 /* Pods-Modal-DownSwipeDisabledTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +676,7 @@
 		};
 		F4DD115527FDCCAD0090E163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A53A532BB2A8E1C915D3717 /* Pods-Modal-DownSwipeDisabledTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +702,7 @@
 		};
 		F4DD115727FDCCAD0090E163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C840AD335900EF938BACB9 /* Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +726,7 @@
 		};
 		F4DD115827FDCCAD0090E163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8E3830D7C695AB284D57C9 /* Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

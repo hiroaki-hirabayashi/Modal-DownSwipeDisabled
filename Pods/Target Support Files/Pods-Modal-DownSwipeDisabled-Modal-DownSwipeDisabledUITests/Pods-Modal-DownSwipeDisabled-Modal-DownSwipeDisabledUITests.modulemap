@@ -1,0 +1,6 @@
+framework module Pods_Modal_DownSwipeDisabled_Modal_DownSwipeDisabledUITests {
+  umbrella header "Pods-Modal-DownSwipeDisabled-Modal-DownSwipeDisabledUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
