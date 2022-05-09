@@ -3,4 +3,4 @@
 
 [interactivedismissdisabled](https://developer.apple.com/documentation/swiftui/view/interactivedismissdisabled(_:))
 
-- 簡易的なお問い合わせフォームで検証を行います
+- 簡易的なお問い合わせフォームで検証
